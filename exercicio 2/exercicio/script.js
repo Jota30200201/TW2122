@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const buttons = document.
 getElementsByClassName('menu-btn');
 
@@ -40,3 +41,20 @@ function selectItens( id ) {
         }
     }
 }
+=======
+const buttons = documento.getElementsByClassName('menu-btn');
+
+const itens = documento.getElementsByClassName('food-item');
+buttons[0].addEventListener('click',  ()=> {
+
+for (let item of itens){
+    //o item é um elemento html.
+    if(item.className === 'food-item drinks'){
+        //esconder os itens com a class drinks
+
+        item.style.display = 'nome';
+    }
+}
+}
+)
+>>>>>>> Stashed changes
